@@ -4,8 +4,8 @@ import turtle
 
 # Create screen
 sc = turtle.Screen()
-sc.title("Pong game - version 2")
-sc.bgcolor("white")
+sc.title("Pong game - version 3")
+sc.bgcolor("yellow")
 sc.setup(width=1000, height=600)
 
 
@@ -109,7 +109,7 @@ while True:
 		hit_ball.dy *= -1
 		left_player += 1
 		sketch.clear()
-		sketch.write("Left_player : {} Right_player: {}".format(
+		sketch.write("Levy_hrac : {} Pravy_hrac: {}".format(
 					left_player, right_player), align="center",
 					font=("Courier", 24, "normal"))
 
@@ -118,7 +118,7 @@ while True:
 		hit_ball.dy *= -1
 		right_player += 1
 		sketch.clear()
-		sketch.write("Left_player : {} Right_player: {}".format(
+		sketch.write("Levy_hrac : {} Pravy_hrac: {}".format(
 								left_player, right_player), align="center",
 								font=("Courier", 24, "normal"))
 
