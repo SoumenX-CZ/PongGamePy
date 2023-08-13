@@ -4,8 +4,8 @@ import turtle
 
 # Create screen
 sc = turtle.Screen()
-sc.title("Pong game - version 4")
-sc.bgcolor("white")
+sc.title("Pong game - version 5")
+sc.bgcolor("black")
 sc.setup(width=1000, height=600)
 
 
@@ -23,7 +23,7 @@ left_pad.goto(-400, 0)
 right_pad = turtle.Turtle()
 right_pad.speed(0)
 right_pad.shape("square")
-right_pad.color("black")
+right_pad.color("white")
 right_pad.shapesize(stretch_wid=6, stretch_len=2)
 right_pad.penup()
 right_pad.goto(400, 0)
