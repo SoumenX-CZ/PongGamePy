@@ -4,7 +4,7 @@ import turtle
 
 # Create screen
 sc = turtle.Screen()
-sc.title("Pong game - version 5")
+sc.title("Pong game - version 6")
 sc.bgcolor("black")
 sc.setup(width=1000, height=600)
 
