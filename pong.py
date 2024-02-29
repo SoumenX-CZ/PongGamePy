@@ -1,6 +1,7 @@
 # Import required library
 import turtle
-
+#soadfninelfnain
+#asodijfenalefjgjksajkjglwjlejf
 
 # Create screen
 sc = turtle.Screen()
@@ -8,7 +9,7 @@ sc.title("Pong game - version 6")
 sc.bgcolor("black")
 sc.setup(width=1000, height=600)
 
-
+#asdfkonrinfowkfnmlaksn
 # Left paddle
 left_pad = turtle.Turtle()
 left_pad.speed(0)
@@ -39,7 +40,7 @@ hit_ball.goto(0, 0)
 hit_ball.dx = 5
 hit_ball.dy = -5
 
-
+#asodkjfwkjfonishfpqpsamfonwinaljyůlkja
 # Initialize the score
 left_player = 0
 right_player = 0
@@ -55,7 +56,7 @@ sketch.goto(0, 260)
 sketch.write("Left_player : 0 Right_player: 0",
 			align="center", font=("Courier", 24, "normal"))
 
-
+#asdfjwlkfjoanfoiylkjekjowjikef
 # Functions to move paddle vertically
 def paddleaup():
 	y = left_pad.ycor()
@@ -68,7 +69,7 @@ def paddleadown():
 	y -= 20
 	left_pad.sety(y)
 
-
+#slkdfjwoenfialfjlak
 def paddlebup():
 	y = right_pad.ycor()
 	y += 20
@@ -88,7 +89,10 @@ sc.onkeypress(paddleadown, "s")
 sc.onkeypress(paddlebup, "Up")
 sc.onkeypress(paddlebdown, "Down")
 
-
+#laksdjflkajwlkdfjl
+#lkajsdflkjlkjlasdf
+#lksajflksjlkdfejfowingiansg
+#laksdjfownln
 while True:
 	sc.update()
 
@@ -121,7 +125,8 @@ while True:
 		sketch.write("Levy_hrac : {} Pravy_hrac: {}".format(
 								left_player, right_player), align="center",
 								font=("Courier", 24, "normal"))
-
+#lksjfaklnfienfl
+#salkdfjwonfinaksdnf
 	# Paddle ball collision
 	if (hit_ball.xcor() > 360 and hit_ball.xcor() < 370) and (hit_ball.ycor() < right_pad.ycor()+40 and hit_ball.ycor() > right_pad.ycor()-40):
 		hit_ball.setx(360)
