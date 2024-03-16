@@ -1,7 +1,5 @@
 # Import required library
 import turtle
-#soadfninelfnain
-#asodijfenalefjgjksajkjglwjlejf
 
 # Create screen
 sc = turtle.Screen()
@@ -9,7 +7,6 @@ sc.title("Pong game - version 6")
 sc.bgcolor("black")
 sc.setup(width=1000, height=600)
 
-#asdfkonrinfowkfnmlaksn
 # Left paddle
 left_pad = turtle.Turtle()
 left_pad.speed(0)
@@ -91,8 +88,6 @@ sc.onkeypress(paddlebdown, "Down")
 
 #laksdjflkajwlkdfjl
 #lkajsdflkjlkjlasdf
-#lksajflksjlkdfejfowingiansg
-#laksdjfownln
 while True:
 	sc.update()
 
